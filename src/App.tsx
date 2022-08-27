@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Input from "./comp/Input";
+import Meme from "./comp/Meme";
 
 function App() {
 	return (
@@ -11,7 +11,7 @@ function App() {
 				<h4>React Course - Project 5</h4>
 			</nav>
 			<main>
-				<Input></Input>
+				<Meme></Meme>
 			</main>
 		</div>
 	);
