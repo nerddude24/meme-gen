@@ -1,23 +1,20 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
+import Input from "./comp/Input";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h3>Welcome to React!</h3>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<nav>
+				<img src="https://img.icons8.com/fluency/48/000000/trollface.png" alt="" />
+				<h1>Meme Generator</h1>
+				<h4>React Course - Project 5</h4>
+			</nav>
+			<main>
+				<Input></Input>
+			</main>
+		</div>
+	);
 }
 
 export default App;
