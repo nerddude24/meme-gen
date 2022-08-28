@@ -10,9 +10,7 @@ function App() {
 				<h1>Meme Generator</h1>
 				<h4>React Course - Project 5</h4>
 			</nav>
-			<main>
-				<Meme></Meme>
-			</main>
+			<Meme></Meme>
 		</div>
 	);
 }
